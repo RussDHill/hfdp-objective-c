@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chocolate' target in the 'Chocolate' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

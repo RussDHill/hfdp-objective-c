@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DinerMerger' target in the 'DinerMerger' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

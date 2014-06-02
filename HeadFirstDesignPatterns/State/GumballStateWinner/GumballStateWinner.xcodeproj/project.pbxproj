@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC0E92F1896D443004A9698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC0E92E1896D443004A9698 /* Foundation.framework */; };
+		3BC0E9321896D443004A9698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E9311896D443004A9698 /* main.m */; };
+		3BC0E9361896D443004A9698 /* GumballStateWinner.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BC0E9351896D443004A9698 /* GumballStateWinner.1 */; };
+		3BC0E9471896D486004A9698 /* GumballMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E93D1896D486004A9698 /* GumballMachine.m */; };
+		3BC0E9481896D486004A9698 /* HasQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E93F1896D486004A9698 /* HasQuarterState.m */; };
+		3BC0E9491896D486004A9698 /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E9411896D486004A9698 /* NoQuarterState.m */; };
+		3BC0E94A1896D486004A9698 /* SoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E9431896D486004A9698 /* SoldOutState.m */; };
+		3BC0E94B1896D486004A9698 /* SoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E9451896D486004A9698 /* SoldState.m */; };
+		3BC0E94E1896D4B8004A9698 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0E94D1896D4B8004A9698 /* WinnerState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BC0E9291896D443004A9698 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3BC0E9361896D443004A9698 /* GumballStateWinner.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BC0E92B1896D443004A9698 /* GumballStateWinner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GumballStateWinner; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC0E92E1896D443004A9698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BC0E9311896D443004A9698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BC0E9341896D443004A9698 /* GumballStateWinner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GumballStateWinner-Prefix.pch"; sourceTree = "<group>"; };
+		3BC0E9351896D443004A9698 /* GumballStateWinner.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GumballStateWinner.1; sourceTree = "<group>"; };
+		3BC0E93C1896D486004A9698 /* GumballMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumballMachine.h; sourceTree = "<group>"; };
+		3BC0E93D1896D486004A9698 /* GumballMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumballMachine.m; sourceTree = "<group>"; };
+		3BC0E93E1896D486004A9698 /* HasQuarterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasQuarterState.h; sourceTree = "<group>"; };
+		3BC0E93F1896D486004A9698 /* HasQuarterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasQuarterState.m; sourceTree = "<group>"; };
+		3BC0E9401896D486004A9698 /* NoQuarterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoQuarterState.h; sourceTree = "<group>"; };
+		3BC0E9411896D486004A9698 /* NoQuarterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoQuarterState.m; sourceTree = "<group>"; };
+		3BC0E9421896D486004A9698 /* SoldOutState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldOutState.h; sourceTree = "<group>"; };
+		3BC0E9431896D486004A9698 /* SoldOutState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldOutState.m; sourceTree = "<group>"; };
+		3BC0E9441896D486004A9698 /* SoldState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldState.h; sourceTree = "<group>"; };
+		3BC0E9451896D486004A9698 /* SoldState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldState.m; sourceTree = "<group>"; };
+		3BC0E9461896D486004A9698 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		3BC0E94C1896D4B8004A9698 /* WinnerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinnerState.h; sourceTree = "<group>"; };
+		3BC0E94D1896D4B8004A9698 /* WinnerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC0E9281896D443004A9698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC0E92F1896D443004A9698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC0E9221896D443004A9698 = {
+			isa = PBXGroup;
+			children = (
+				3BC0E9301896D443004A9698 /* GumballStateWinner */,
+				3BC0E92D1896D443004A9698 /* Frameworks */,
+				3BC0E92C1896D443004A9698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC0E92C1896D443004A9698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC0E92B1896D443004A9698 /* GumballStateWinner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC0E92D1896D443004A9698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC0E92E1896D443004A9698 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BC0E9301896D443004A9698 /* GumballStateWinner */ = {
+			isa = PBXGroup;
+			children = (
+				3BC0E93C1896D486004A9698 /* GumballMachine.h */,
+				3BC0E93D1896D486004A9698 /* GumballMachine.m */,
+				3BC0E9351896D443004A9698 /* GumballStateWinner.1 */,
+				3BC0E93E1896D486004A9698 /* HasQuarterState.h */,
+				3BC0E93F1896D486004A9698 /* HasQuarterState.m */,
+				3BC0E9311896D443004A9698 /* main.m */,
+				3BC0E9401896D486004A9698 /* NoQuarterState.h */,
+				3BC0E9411896D486004A9698 /* NoQuarterState.m */,
+				3BC0E9421896D486004A9698 /* SoldOutState.h */,
+				3BC0E9431896D486004A9698 /* SoldOutState.m */,
+				3BC0E9441896D486004A9698 /* SoldState.h */,
+				3BC0E9451896D486004A9698 /* SoldState.m */,
+				3BC0E9461896D486004A9698 /* State.h */,
+				3BC0E9331896D443004A9698 /* Supporting Files */,
+				3BC0E94C1896D4B8004A9698 /* WinnerState.h */,
+				3BC0E94D1896D4B8004A9698 /* WinnerState.m */,
+			);
+			path = GumballStateWinner;
+			sourceTree = "<group>";
+		};
+		3BC0E9331896D443004A9698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC0E9341896D443004A9698 /* GumballStateWinner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC0E92A1896D443004A9698 /* GumballStateWinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC0E9391896D443004A9698 /* Build configuration list for PBXNativeTarget "GumballStateWinner" */;
+			buildPhases = (
+				3BC0E9271896D443004A9698 /* Sources */,
+				3BC0E9281896D443004A9698 /* Frameworks */,
+				3BC0E9291896D443004A9698 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GumballStateWinner;
+			productName = GumballStateWinner;
+			productReference = 3BC0E92B1896D443004A9698 /* GumballStateWinner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC0E9231896D443004A9698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Russell Hill";
+			};
+			buildConfigurationList = 3BC0E9261896D443004A9698 /* Build configuration list for PBXProject "GumballStateWinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BC0E9221896D443004A9698;
+			productRefGroup = 3BC0E92C1896D443004A9698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC0E92A1896D443004A9698 /* GumballStateWinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC0E9271896D443004A9698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC0E9321896D443004A9698 /* main.m in Sources */,
+				3BC0E9471896D486004A9698 /* GumballMachine.m in Sources */,
+				3BC0E9481896D486004A9698 /* HasQuarterState.m in Sources */,
+				3BC0E9491896D486004A9698 /* NoQuarterState.m in Sources */,
+				3BC0E94A1896D486004A9698 /* SoldOutState.m in Sources */,
+				3BC0E94B1896D486004A9698 /* SoldState.m in Sources */,
+				3BC0E94E1896D4B8004A9698 /* WinnerState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BC0E9371896D443004A9698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BC0E9381896D443004A9698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BC0E93A1896D443004A9698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GumballStateWinner/GumballStateWinner-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BC0E93B1896D443004A9698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GumballStateWinner/GumballStateWinner-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC0E9261896D443004A9698 /* Build configuration list for PBXProject "GumballStateWinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC0E9371896D443004A9698 /* Debug */,
+				3BC0E9381896D443004A9698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC0E9391896D443004A9698 /* Build configuration list for PBXNativeTarget "GumballStateWinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC0E93A1896D443004A9698 /* Debug */,
+				3BC0E93B1896D443004A9698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC0E9231896D443004A9698 /* Project object */;
+}

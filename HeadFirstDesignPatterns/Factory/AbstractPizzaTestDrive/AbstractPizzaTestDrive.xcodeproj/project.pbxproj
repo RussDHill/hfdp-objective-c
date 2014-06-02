@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B1F3C918350B8A000847FA /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F3C818350B8A000847FA /* NYPizzaStore.m */; };
+		46B1F3CD18350DA6000847FA /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F3CC18350DA6000847FA /* CheesePizza.m */; };
+		46B1F3D0183511AB000847FA /* VeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F3CF183511AB000847FA /* VeggiePizza.m */; };
+		46B1F3D3183512E1000847FA /* ClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F3D2183512E1000847FA /* ClamPizza.m */; };
+		46B1F3D618351374000847FA /* PepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F3D518351374000847FA /* PepperoniPizza.m */; };
+		46B25D9A1834D8BB009D07B6 /* ChicagoPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B25D991834D8BB009D07B6 /* ChicagoPizzaIngredientFactory.m */; };
+		46B25D9D1834DBD5009D07B6 /* MozzarellaCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B25D9C1834DBD5009D07B6 /* MozzarellaCheese.m */; };
+		46B25DA01834DE39009D07B6 /* NYPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B25D9F1834DE39009D07B6 /* NYPizzaIngredientFactory.m */; };
+		46B25DA31834E085009D07B6 /* ChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B25DA21834E084009D07B6 /* ChicagoPizzaStore.m */; };
+		46CC3A9D1834265E00D8A02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CC3A9C1834265E00D8A02F /* Foundation.framework */; };
+		46CC3AA01834265E00D8A02F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3A9F1834265E00D8A02F /* main.m */; };
+		46CC3AA41834265E00D8A02F /* AbstractPizzaTestDrive.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46CC3AA31834265E00D8A02F /* AbstractPizzaTestDrive.1 */; };
+		46CC3AAD183428E200D8A02F /* BlackOlives.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AAC183428E200D8A02F /* BlackOlives.m */; };
+		46CC3AB0183429D800D8A02F /* Eggplant.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AAF183429D800D8A02F /* Eggplant.m */; };
+		46CC3AB318342A4700D8A02F /* Garlic.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AB218342A4700D8A02F /* Garlic.m */; };
+		46CC3AB618342AA500D8A02F /* Mushroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AB518342AA500D8A02F /* Mushroom.m */; };
+		46CC3AB918342B1E00D8A02F /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AB818342B1E00D8A02F /* Onion.m */; };
+		46CC3ABC18342B7500D8A02F /* RedPepper.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ABB18342B7500D8A02F /* RedPepper.m */; };
+		46CC3ABF18342BC000D8A02F /* Spinach.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ABE18342BC000D8A02F /* Spinach.m */; };
+		46CC3AC218342C3400D8A02F /* MarinaraSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AC118342C3300D8A02F /* MarinaraSauce.m */; };
+		46CC3AC518342CB900D8A02F /* PlumTomatoSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AC418342CB900D8A02F /* PlumTomatoSauce.m */; };
+		46CC3AC818342D4100D8A02F /* ThickCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AC718342D4100D8A02F /* ThickCrustDough.m */; };
+		46CC3ACB18342DBB00D8A02F /* ThinCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ACA18342DBB00D8A02F /* ThinCrustDough.m */; };
+		46CC3ACE18342E2700D8A02F /* ParmesanCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ACD18342E2600D8A02F /* ParmesanCheese.m */; };
+		46CC3AD118342E9700D8A02F /* ReggianoCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AD018342E9600D8A02F /* ReggianoCheese.m */; };
+		46CC3AD418342F5200D8A02F /* FreshClams.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AD318342F5200D8A02F /* FreshClams.m */; };
+		46CC3AD718342FBC00D8A02F /* FrozenClams.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AD618342FBB00D8A02F /* FrozenClams.m */; };
+		46CC3ADA1834304000D8A02F /* SlicedPepperoni.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3AD91834303F00D8A02F /* SlicedPepperoni.m */; };
+		46CC3ADF1834314E00D8A02F /* AbstractPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ADC1834314C00D8A02F /* AbstractPizza.m */; };
+		46CC3AE01834314E00D8A02F /* AbstractPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC3ADE1834314D00D8A02F /* AbstractPizzaStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46CC3A961834265E00D8A02F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				46CC3AA41834265E00D8A02F /* AbstractPizzaTestDrive.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46B1F3C718350B8A000847FA /* NYPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		46B1F3C818350B8A000847FA /* NYPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		46B1F3CB18350DA6000847FA /* CheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		46B1F3CC18350DA6000847FA /* CheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		46B1F3CE183511AB000847FA /* VeggiePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeggiePizza.h; sourceTree = "<group>"; };
+		46B1F3CF183511AB000847FA /* VeggiePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeggiePizza.m; sourceTree = "<group>"; };
+		46B1F3D1183512E1000847FA /* ClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClamPizza.h; sourceTree = "<group>"; };
+		46B1F3D2183512E1000847FA /* ClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClamPizza.m; sourceTree = "<group>"; };
+		46B1F3D418351374000847FA /* PepperoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PepperoniPizza.h; sourceTree = "<group>"; };
+		46B1F3D518351374000847FA /* PepperoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PepperoniPizza.m; sourceTree = "<group>"; };
+		46B25D971834D69C009D07B6 /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		46B25D981834D8BA009D07B6 /* ChicagoPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		46B25D991834D8BB009D07B6 /* ChicagoPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		46B25D9B1834DBD5009D07B6 /* MozzarellaCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MozzarellaCheese.h; sourceTree = "<group>"; };
+		46B25D9C1834DBD5009D07B6 /* MozzarellaCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MozzarellaCheese.m; sourceTree = "<group>"; };
+		46B25D9E1834DE39009D07B6 /* NYPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		46B25D9F1834DE39009D07B6 /* NYPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		46B25DA11834E084009D07B6 /* ChicagoPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaStore.h; sourceTree = "<group>"; };
+		46B25DA21834E084009D07B6 /* ChicagoPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaStore.m; sourceTree = "<group>"; };
+		46CC3A981834265E00D8A02F /* AbstractPizzaTestDrive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractPizzaTestDrive; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CC3A9C1834265E00D8A02F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46CC3A9F1834265E00D8A02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46CC3AA21834265E00D8A02F /* AbstractPizzaTestDrive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbstractPizzaTestDrive-Prefix.pch"; sourceTree = "<group>"; };
+		46CC3AA31834265E00D8A02F /* AbstractPizzaTestDrive.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AbstractPizzaTestDrive.1; sourceTree = "<group>"; };
+		46CC3AAB183428E200D8A02F /* BlackOlives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackOlives.h; sourceTree = "<group>"; };
+		46CC3AAC183428E200D8A02F /* BlackOlives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackOlives.m; sourceTree = "<group>"; };
+		46CC3AAE183429D800D8A02F /* Eggplant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eggplant.h; sourceTree = "<group>"; };
+		46CC3AAF183429D800D8A02F /* Eggplant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eggplant.m; sourceTree = "<group>"; };
+		46CC3AB118342A4700D8A02F /* Garlic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Garlic.h; sourceTree = "<group>"; };
+		46CC3AB218342A4700D8A02F /* Garlic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Garlic.m; sourceTree = "<group>"; };
+		46CC3AB418342AA400D8A02F /* Mushroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mushroom.h; sourceTree = "<group>"; };
+		46CC3AB518342AA500D8A02F /* Mushroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mushroom.m; sourceTree = "<group>"; };
+		46CC3AB718342B1E00D8A02F /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		46CC3AB818342B1E00D8A02F /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		46CC3ABA18342B7500D8A02F /* RedPepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPepper.h; sourceTree = "<group>"; };
+		46CC3ABB18342B7500D8A02F /* RedPepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPepper.m; sourceTree = "<group>"; };
+		46CC3ABD18342BC000D8A02F /* Spinach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spinach.h; sourceTree = "<group>"; };
+		46CC3ABE18342BC000D8A02F /* Spinach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spinach.m; sourceTree = "<group>"; };
+		46CC3AC018342C3300D8A02F /* MarinaraSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarinaraSauce.h; sourceTree = "<group>"; };
+		46CC3AC118342C3300D8A02F /* MarinaraSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarinaraSauce.m; sourceTree = "<group>"; };
+		46CC3AC318342CB900D8A02F /* PlumTomatoSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlumTomatoSauce.h; sourceTree = "<group>"; };
+		46CC3AC418342CB900D8A02F /* PlumTomatoSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlumTomatoSauce.m; sourceTree = "<group>"; };
+		46CC3AC618342D4100D8A02F /* ThickCrustDough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThickCrustDough.h; sourceTree = "<group>"; };
+		46CC3AC718342D4100D8A02F /* ThickCrustDough.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThickCrustDough.m; sourceTree = "<group>"; };
+		46CC3AC918342DBB00D8A02F /* ThinCrustDough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinCrustDough.h; sourceTree = "<group>"; };
+		46CC3ACA18342DBB00D8A02F /* ThinCrustDough.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinCrustDough.m; sourceTree = "<group>"; };
+		46CC3ACC18342E2600D8A02F /* ParmesanCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParmesanCheese.h; sourceTree = "<group>"; };
+		46CC3ACD18342E2600D8A02F /* ParmesanCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParmesanCheese.m; sourceTree = "<group>"; };
+		46CC3ACF18342E9600D8A02F /* ReggianoCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReggianoCheese.h; sourceTree = "<group>"; };
+		46CC3AD018342E9600D8A02F /* ReggianoCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggianoCheese.m; sourceTree = "<group>"; };
+		46CC3AD218342F5200D8A02F /* FreshClams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshClams.h; sourceTree = "<group>"; };
+		46CC3AD318342F5200D8A02F /* FreshClams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreshClams.m; sourceTree = "<group>"; };
+		46CC3AD518342FBB00D8A02F /* FrozenClams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrozenClams.h; sourceTree = "<group>"; };
+		46CC3AD618342FBB00D8A02F /* FrozenClams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrozenClams.m; sourceTree = "<group>"; };
+		46CC3AD81834303F00D8A02F /* SlicedPepperoni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlicedPepperoni.h; sourceTree = "<group>"; };
+		46CC3AD91834303F00D8A02F /* SlicedPepperoni.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlicedPepperoni.m; sourceTree = "<group>"; };
+		46CC3ADB1834314B00D8A02F /* AbstractPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPizza.h; sourceTree = "<group>"; };
+		46CC3ADC1834314C00D8A02F /* AbstractPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractPizza.m; sourceTree = "<group>"; };
+		46CC3ADD1834314D00D8A02F /* AbstractPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPizzaStore.h; sourceTree = "<group>"; };
+		46CC3ADE1834314D00D8A02F /* AbstractPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractPizzaStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CC3A951834265E00D8A02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CC3A9D1834265E00D8A02F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46CC3A8D1834265E00D8A02F = {
+			isa = PBXGroup;
+			children = (
+				46CC3A9E1834265E00D8A02F /* AbstractPizzaTestDrive */,
+				46CC3A9B1834265E00D8A02F /* Frameworks */,
+				46CC3A991834265E00D8A02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46CC3A991834265E00D8A02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CC3A981834265E00D8A02F /* AbstractPizzaTestDrive */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46CC3A9B1834265E00D8A02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46CC3A9C1834265E00D8A02F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46CC3A9E1834265E00D8A02F /* AbstractPizzaTestDrive */ = {
+			isa = PBXGroup;
+			children = (
+				46CC3ADB1834314B00D8A02F /* AbstractPizza.h */,
+				46CC3ADC1834314C00D8A02F /* AbstractPizza.m */,
+				46CC3ADD1834314D00D8A02F /* AbstractPizzaStore.h */,
+				46CC3ADE1834314D00D8A02F /* AbstractPizzaStore.m */,
+				46CC3AA31834265E00D8A02F /* AbstractPizzaTestDrive.1 */,
+				46CC3AAB183428E200D8A02F /* BlackOlives.h */,
+				46CC3AAC183428E200D8A02F /* BlackOlives.m */,
+				46B1F3CB18350DA6000847FA /* CheesePizza.h */,
+				46B1F3CC18350DA6000847FA /* CheesePizza.m */,
+				46B25D981834D8BA009D07B6 /* ChicagoPizzaIngredientFactory.h */,
+				46B25D991834D8BB009D07B6 /* ChicagoPizzaIngredientFactory.m */,
+				46B25DA11834E084009D07B6 /* ChicagoPizzaStore.h */,
+				46B25DA21834E084009D07B6 /* ChicagoPizzaStore.m */,
+				46B1F3D1183512E1000847FA /* ClamPizza.h */,
+				46B1F3D2183512E1000847FA /* ClamPizza.m */,
+				46CC3AAE183429D800D8A02F /* Eggplant.h */,
+				46CC3AAF183429D800D8A02F /* Eggplant.m */,
+				46CC3AD218342F5200D8A02F /* FreshClams.h */,
+				46CC3AD318342F5200D8A02F /* FreshClams.m */,
+				46CC3AD518342FBB00D8A02F /* FrozenClams.h */,
+				46CC3AD618342FBB00D8A02F /* FrozenClams.m */,
+				46CC3AB118342A4700D8A02F /* Garlic.h */,
+				46CC3AB218342A4700D8A02F /* Garlic.m */,
+				46CC3A9F1834265E00D8A02F /* main.m */,
+				46CC3AC018342C3300D8A02F /* MarinaraSauce.h */,
+				46CC3AC118342C3300D8A02F /* MarinaraSauce.m */,
+				46B25D9B1834DBD5009D07B6 /* MozzarellaCheese.h */,
+				46B25D9C1834DBD5009D07B6 /* MozzarellaCheese.m */,
+				46CC3AB418342AA400D8A02F /* Mushroom.h */,
+				46CC3AB518342AA500D8A02F /* Mushroom.m */,
+				46B25D9E1834DE39009D07B6 /* NYPizzaIngredientFactory.h */,
+				46B25D9F1834DE39009D07B6 /* NYPizzaIngredientFactory.m */,
+				46B1F3C718350B8A000847FA /* NYPizzaStore.h */,
+				46B1F3C818350B8A000847FA /* NYPizzaStore.m */,
+				46CC3AB718342B1E00D8A02F /* Onion.h */,
+				46CC3AB818342B1E00D8A02F /* Onion.m */,
+				46CC3ACC18342E2600D8A02F /* ParmesanCheese.h */,
+				46CC3ACD18342E2600D8A02F /* ParmesanCheese.m */,
+				46B1F3D418351374000847FA /* PepperoniPizza.h */,
+				46B1F3D518351374000847FA /* PepperoniPizza.m */,
+				46CC3AC318342CB900D8A02F /* PlumTomatoSauce.h */,
+				46CC3AC418342CB900D8A02F /* PlumTomatoSauce.m */,
+				46B25D971834D69C009D07B6 /* Protocols.h */,
+				46CC3ABA18342B7500D8A02F /* RedPepper.h */,
+				46CC3ABB18342B7500D8A02F /* RedPepper.m */,
+				46CC3ACF18342E9600D8A02F /* ReggianoCheese.h */,
+				46CC3AD018342E9600D8A02F /* ReggianoCheese.m */,
+				46CC3AD81834303F00D8A02F /* SlicedPepperoni.h */,
+				46CC3AD91834303F00D8A02F /* SlicedPepperoni.m */,
+				46CC3ABD18342BC000D8A02F /* Spinach.h */,
+				46CC3ABE18342BC000D8A02F /* Spinach.m */,
+				46CC3AA11834265E00D8A02F /* Supporting Files */,
+				46CC3AC618342D4100D8A02F /* ThickCrustDough.h */,
+				46CC3AC718342D4100D8A02F /* ThickCrustDough.m */,
+				46CC3AC918342DBB00D8A02F /* ThinCrustDough.h */,
+				46CC3ACA18342DBB00D8A02F /* ThinCrustDough.m */,
+				46B1F3CE183511AB000847FA /* VeggiePizza.h */,
+				46B1F3CF183511AB000847FA /* VeggiePizza.m */,
+			);
+			path = AbstractPizzaTestDrive;
+			sourceTree = "<group>";
+		};
+		46CC3AA11834265E00D8A02F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CC3AA21834265E00D8A02F /* AbstractPizzaTestDrive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46CC3A971834265E00D8A02F /* AbstractPizzaTestDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CC3AA71834265E00D8A02F /* Build configuration list for PBXNativeTarget "AbstractPizzaTestDrive" */;
+			buildPhases = (
+				46CC3A941834265E00D8A02F /* Sources */,
+				46CC3A951834265E00D8A02F /* Frameworks */,
+				46CC3A961834265E00D8A02F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractPizzaTestDrive;
+			productName = AbstractPizzaTestDrive;
+			productReference = 46CC3A981834265E00D8A02F /* AbstractPizzaTestDrive */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46CC3A8F1834265E00D8A02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Russell Hill";
+			};
+			buildConfigurationList = 46CC3A921834265E00D8A02F /* Build configuration list for PBXProject "AbstractPizzaTestDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46CC3A8D1834265E00D8A02F;
+			productRefGroup = 46CC3A991834265E00D8A02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CC3A971834265E00D8A02F /* AbstractPizzaTestDrive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CC3A941834265E00D8A02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CC3AA01834265E00D8A02F /* main.m in Sources */,
+				46CC3AAD183428E200D8A02F /* BlackOlives.m in Sources */,
+				46CC3AB0183429D800D8A02F /* Eggplant.m in Sources */,
+				46CC3AB318342A4700D8A02F /* Garlic.m in Sources */,
+				46CC3AB618342AA500D8A02F /* Mushroom.m in Sources */,
+				46CC3AB918342B1E00D8A02F /* Onion.m in Sources */,
+				46CC3ABC18342B7500D8A02F /* RedPepper.m in Sources */,
+				46CC3ABF18342BC000D8A02F /* Spinach.m in Sources */,
+				46CC3AC218342C3400D8A02F /* MarinaraSauce.m in Sources */,
+				46CC3AC518342CB900D8A02F /* PlumTomatoSauce.m in Sources */,
+				46CC3AC818342D4100D8A02F /* ThickCrustDough.m in Sources */,
+				46CC3ACB18342DBB00D8A02F /* ThinCrustDough.m in Sources */,
+				46CC3ACE18342E2700D8A02F /* ParmesanCheese.m in Sources */,
+				46CC3AD118342E9700D8A02F /* ReggianoCheese.m in Sources */,
+				46CC3AD418342F5200D8A02F /* FreshClams.m in Sources */,
+				46CC3AD718342FBC00D8A02F /* FrozenClams.m in Sources */,
+				46CC3ADA1834304000D8A02F /* SlicedPepperoni.m in Sources */,
+				46CC3ADF1834314E00D8A02F /* AbstractPizza.m in Sources */,
+				46CC3AE01834314E00D8A02F /* AbstractPizzaStore.m in Sources */,
+				46B25D9A1834D8BB009D07B6 /* ChicagoPizzaIngredientFactory.m in Sources */,
+				46B25D9D1834DBD5009D07B6 /* MozzarellaCheese.m in Sources */,
+				46B25DA01834DE39009D07B6 /* NYPizzaIngredientFactory.m in Sources */,
+				46B25DA31834E085009D07B6 /* ChicagoPizzaStore.m in Sources */,
+				46B1F3C918350B8A000847FA /* NYPizzaStore.m in Sources */,
+				46B1F3CD18350DA6000847FA /* CheesePizza.m in Sources */,
+				46B1F3D0183511AB000847FA /* VeggiePizza.m in Sources */,
+				46B1F3D3183512E1000847FA /* ClamPizza.m in Sources */,
+				46B1F3D618351374000847FA /* PepperoniPizza.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46CC3AA51834265E00D8A02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46CC3AA61834265E00D8A02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46CC3AA81834265E00D8A02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractPizzaTestDrive/AbstractPizzaTestDrive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CC3AA91834265E00D8A02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractPizzaTestDrive/AbstractPizzaTestDrive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CC3A921834265E00D8A02F /* Build configuration list for PBXProject "AbstractPizzaTestDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CC3AA51834265E00D8A02F /* Debug */,
+				46CC3AA61834265E00D8A02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CC3AA71834265E00D8A02F /* Build configuration list for PBXNativeTarget "AbstractPizzaTestDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CC3AA81834265E00D8A02F /* Debug */,
+				46CC3AA91834265E00D8A02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46CC3A8F1834265E00D8A02F /* Project object */;
+}

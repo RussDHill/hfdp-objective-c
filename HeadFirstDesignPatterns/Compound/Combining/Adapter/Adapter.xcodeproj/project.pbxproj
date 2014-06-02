@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBAF7E018A53CF8001D7A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBAF7DF18A53CF8001D7A77 /* Foundation.framework */; };
+		3BBAF7E318A53CF8001D7A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7E218A53CF8001D7A77 /* main.m */; };
+		3BBAF7E718A53CF8001D7A77 /* Adapter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BBAF7E618A53CF8001D7A77 /* Adapter.1 */; };
+		3BBAF7FA18A53D53001D7A77 /* DecoyDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7EE18A53D53001D7A77 /* DecoyDuck.m */; };
+		3BBAF7FB18A53D53001D7A77 /* DuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7F018A53D53001D7A77 /* DuckCall.m */; };
+		3BBAF7FC18A53D53001D7A77 /* DuckSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7F218A53D53001D7A77 /* DuckSimulator.m */; };
+		3BBAF7FD18A53D53001D7A77 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7F418A53D53001D7A77 /* MallardDuck.m */; };
+		3BBAF7FE18A53D53001D7A77 /* RedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7F718A53D53001D7A77 /* RedheadDuck.m */; };
+		3BBAF7FF18A53D53001D7A77 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF7F918A53D53001D7A77 /* RubberDuck.m */; };
+		3BBAF80218A53DE8001D7A77 /* Goose.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF80118A53DE8001D7A77 /* Goose.m */; };
+		3BBAF80518A53E65001D7A77 /* GooseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF80418A53E65001D7A77 /* GooseAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BBAF7DA18A53CF8001D7A77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3BBAF7E718A53CF8001D7A77 /* Adapter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BBAF7DC18A53CF8001D7A77 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBAF7DF18A53CF8001D7A77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BBAF7E218A53CF8001D7A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBAF7E518A53CF8001D7A77 /* Adapter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adapter-Prefix.pch"; sourceTree = "<group>"; };
+		3BBAF7E618A53CF8001D7A77 /* Adapter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Adapter.1; sourceTree = "<group>"; };
+		3BBAF7ED18A53D53001D7A77 /* DecoyDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoyDuck.h; sourceTree = "<group>"; };
+		3BBAF7EE18A53D53001D7A77 /* DecoyDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoyDuck.m; sourceTree = "<group>"; };
+		3BBAF7EF18A53D53001D7A77 /* DuckCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckCall.h; sourceTree = "<group>"; };
+		3BBAF7F018A53D53001D7A77 /* DuckCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
+		3BBAF7F118A53D53001D7A77 /* DuckSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckSimulator.h; sourceTree = "<group>"; };
+		3BBAF7F218A53D53001D7A77 /* DuckSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckSimulator.m; sourceTree = "<group>"; };
+		3BBAF7F318A53D53001D7A77 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		3BBAF7F418A53D53001D7A77 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		3BBAF7F518A53D53001D7A77 /* Quackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quackable.h; sourceTree = "<group>"; };
+		3BBAF7F618A53D53001D7A77 /* RedheadDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedheadDuck.h; sourceTree = "<group>"; };
+		3BBAF7F718A53D53001D7A77 /* RedheadDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedheadDuck.m; sourceTree = "<group>"; };
+		3BBAF7F818A53D53001D7A77 /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		3BBAF7F918A53D53001D7A77 /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		3BBAF80018A53DE8001D7A77 /* Goose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goose.h; sourceTree = "<group>"; };
+		3BBAF80118A53DE8001D7A77 /* Goose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goose.m; sourceTree = "<group>"; };
+		3BBAF80318A53E65001D7A77 /* GooseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooseAdapter.h; sourceTree = "<group>"; };
+		3BBAF80418A53E65001D7A77 /* GooseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooseAdapter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBAF7D918A53CF8001D7A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBAF7E018A53CF8001D7A77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBAF7D318A53CF8001D7A77 = {
+			isa = PBXGroup;
+			children = (
+				3BBAF7E118A53CF8001D7A77 /* Adapter */,
+				3BBAF7DE18A53CF8001D7A77 /* Frameworks */,
+				3BBAF7DD18A53CF8001D7A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBAF7DD18A53CF8001D7A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAF7DC18A53CF8001D7A77 /* Adapter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBAF7DE18A53CF8001D7A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAF7DF18A53CF8001D7A77 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BBAF7E118A53CF8001D7A77 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAF7E618A53CF8001D7A77 /* Adapter.1 */,
+				3BBAF7ED18A53D53001D7A77 /* DecoyDuck.h */,
+				3BBAF7EE18A53D53001D7A77 /* DecoyDuck.m */,
+				3BBAF7EF18A53D53001D7A77 /* DuckCall.h */,
+				3BBAF7F018A53D53001D7A77 /* DuckCall.m */,
+				3BBAF7F118A53D53001D7A77 /* DuckSimulator.h */,
+				3BBAF7F218A53D53001D7A77 /* DuckSimulator.m */,
+				3BBAF80018A53DE8001D7A77 /* Goose.h */,
+				3BBAF80118A53DE8001D7A77 /* Goose.m */,
+				3BBAF80318A53E65001D7A77 /* GooseAdapter.h */,
+				3BBAF80418A53E65001D7A77 /* GooseAdapter.m */,
+				3BBAF7E218A53CF8001D7A77 /* main.m */,
+				3BBAF7F318A53D53001D7A77 /* MallardDuck.h */,
+				3BBAF7F418A53D53001D7A77 /* MallardDuck.m */,
+				3BBAF7F518A53D53001D7A77 /* Quackable.h */,
+				3BBAF7F618A53D53001D7A77 /* RedheadDuck.h */,
+				3BBAF7F718A53D53001D7A77 /* RedheadDuck.m */,
+				3BBAF7F818A53D53001D7A77 /* RubberDuck.h */,
+				3BBAF7F918A53D53001D7A77 /* RubberDuck.m */,
+				3BBAF7E418A53CF8001D7A77 /* Supporting Files */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3BBAF7E418A53CF8001D7A77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAF7E518A53CF8001D7A77 /* Adapter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBAF7DB18A53CF8001D7A77 /* Adapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBAF7EA18A53CF8001D7A77 /* Build configuration list for PBXNativeTarget "Adapter" */;
+			buildPhases = (
+				3BBAF7D818A53CF8001D7A77 /* Sources */,
+				3BBAF7D918A53CF8001D7A77 /* Frameworks */,
+				3BBAF7DA18A53CF8001D7A77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adapter;
+			productName = Adapter;
+			productReference = 3BBAF7DC18A53CF8001D7A77 /* Adapter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBAF7D418A53CF8001D7A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Russell Hill";
+			};
+			buildConfigurationList = 3BBAF7D718A53CF8001D7A77 /* Build configuration list for PBXProject "Adapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BBAF7D318A53CF8001D7A77;
+			productRefGroup = 3BBAF7DD18A53CF8001D7A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBAF7DB18A53CF8001D7A77 /* Adapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBAF7D818A53CF8001D7A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBAF7E318A53CF8001D7A77 /* main.m in Sources */,
+				3BBAF7FA18A53D53001D7A77 /* DecoyDuck.m in Sources */,
+				3BBAF7FB18A53D53001D7A77 /* DuckCall.m in Sources */,
+				3BBAF7FC18A53D53001D7A77 /* DuckSimulator.m in Sources */,
+				3BBAF7FD18A53D53001D7A77 /* MallardDuck.m in Sources */,
+				3BBAF7FE18A53D53001D7A77 /* RedheadDuck.m in Sources */,
+				3BBAF7FF18A53D53001D7A77 /* RubberDuck.m in Sources */,
+				3BBAF80218A53DE8001D7A77 /* Goose.m in Sources */,
+				3BBAF80518A53E65001D7A77 /* GooseAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BBAF7E818A53CF8001D7A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BBAF7E918A53CF8001D7A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BBAF7EB18A53CF8001D7A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adapter/Adapter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BBAF7EC18A53CF8001D7A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adapter/Adapter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBAF7D718A53CF8001D7A77 /* Build configuration list for PBXProject "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBAF7E818A53CF8001D7A77 /* Debug */,
+				3BBAF7E918A53CF8001D7A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBAF7EA18A53CF8001D7A77 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBAF7EB18A53CF8001D7A77 /* Debug */,
+				3BBAF7EC18A53CF8001D7A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBAF7D418A53CF8001D7A77 /* Project object */;
+}

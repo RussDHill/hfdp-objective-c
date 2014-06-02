@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB501A3188ECFAD008B3291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB501A2188ECFAD008B3291 /* Foundation.framework */; };
+		3BB501A6188ECFAD008B3291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB501A5188ECFAD008B3291 /* main.m */; };
+		3BB501AA188ECFAD008B3291 /* TurkeyTestDrive.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BB501A9188ECFAD008B3291 /* TurkeyTestDrive.1 */; };
+		3BB501B5188ED111008B3291 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB501B1188ED111008B3291 /* MallardDuck.m */; };
+		3BB501B6188ED111008B3291 /* DuckAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB501B4188ED111008B3291 /* DuckAdapter.m */; };
+		3BB501BA188ED11F008B3291 /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB501B9188ED11F008B3291 /* WildTurkey.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BB5019D188ECFAD008B3291 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3BB501AA188ECFAD008B3291 /* TurkeyTestDrive.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BB5019F188ECFAD008B3291 /* TurkeyTestDrive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TurkeyTestDrive; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB501A2188ECFAD008B3291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BB501A5188ECFAD008B3291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB501A8188ECFAD008B3291 /* TurkeyTestDrive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TurkeyTestDrive-Prefix.pch"; sourceTree = "<group>"; };
+		3BB501A9188ECFAD008B3291 /* TurkeyTestDrive.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TurkeyTestDrive.1; sourceTree = "<group>"; };
+		3BB501B0188ED111008B3291 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		3BB501B1188ED111008B3291 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		3BB501B2188ED111008B3291 /* Turkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Turkey.h; sourceTree = "<group>"; };
+		3BB501B3188ED111008B3291 /* DuckAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckAdapter.h; sourceTree = "<group>"; };
+		3BB501B4188ED111008B3291 /* DuckAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckAdapter.m; sourceTree = "<group>"; };
+		3BB501B7188ED11F008B3291 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		3BB501B8188ED11F008B3291 /* WildTurkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildTurkey.h; sourceTree = "<group>"; };
+		3BB501B9188ED11F008B3291 /* WildTurkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildTurkey.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB5019C188ECFAD008B3291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB501A3188ECFAD008B3291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB50196188ECFAC008B3291 = {
+			isa = PBXGroup;
+			children = (
+				3BB501A4188ECFAD008B3291 /* TurkeyTestDrive */,
+				3BB501A1188ECFAD008B3291 /* Frameworks */,
+				3BB501A0188ECFAD008B3291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB501A0188ECFAD008B3291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB5019F188ECFAD008B3291 /* TurkeyTestDrive */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB501A1188ECFAD008B3291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BB501A2188ECFAD008B3291 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BB501A4188ECFAD008B3291 /* TurkeyTestDrive */ = {
+			isa = PBXGroup;
+			children = (
+				3BB501B7188ED11F008B3291 /* Duck.h */,
+				3BB501B8188ED11F008B3291 /* WildTurkey.h */,
+				3BB501B9188ED11F008B3291 /* WildTurkey.m */,
+				3BB501B0188ED111008B3291 /* MallardDuck.h */,
+				3BB501B1188ED111008B3291 /* MallardDuck.m */,
+				3BB501B2188ED111008B3291 /* Turkey.h */,
+				3BB501B3188ED111008B3291 /* DuckAdapter.h */,
+				3BB501B4188ED111008B3291 /* DuckAdapter.m */,
+				3BB501A5188ECFAD008B3291 /* main.m */,
+				3BB501A9188ECFAD008B3291 /* TurkeyTestDrive.1 */,
+				3BB501A7188ECFAD008B3291 /* Supporting Files */,
+			);
+			path = TurkeyTestDrive;
+			sourceTree = "<group>";
+		};
+		3BB501A7188ECFAD008B3291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB501A8188ECFAD008B3291 /* TurkeyTestDrive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB5019E188ECFAD008B3291 /* TurkeyTestDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB501AD188ECFAD008B3291 /* Build configuration list for PBXNativeTarget "TurkeyTestDrive" */;
+			buildPhases = (
+				3BB5019B188ECFAD008B3291 /* Sources */,
+				3BB5019C188ECFAD008B3291 /* Frameworks */,
+				3BB5019D188ECFAD008B3291 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkeyTestDrive;
+			productName = TurkeyTestDrive;
+			productReference = 3BB5019F188ECFAD008B3291 /* TurkeyTestDrive */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB50197188ECFAC008B3291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Russell Hill";
+			};
+			buildConfigurationList = 3BB5019A188ECFAC008B3291 /* Build configuration list for PBXProject "TurkeyTestDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BB50196188ECFAC008B3291;
+			productRefGroup = 3BB501A0188ECFAD008B3291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB5019E188ECFAD008B3291 /* TurkeyTestDrive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB5019B188ECFAD008B3291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB501A6188ECFAD008B3291 /* main.m in Sources */,
+				3BB501B5188ED111008B3291 /* MallardDuck.m in Sources */,
+				3BB501B6188ED111008B3291 /* DuckAdapter.m in Sources */,
+				3BB501BA188ED11F008B3291 /* WildTurkey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BB501AB188ECFAD008B3291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BB501AC188ECFAD008B3291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BB501AE188ECFAD008B3291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurkeyTestDrive/TurkeyTestDrive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB501AF188ECFAD008B3291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurkeyTestDrive/TurkeyTestDrive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB5019A188ECFAC008B3291 /* Build configuration list for PBXProject "TurkeyTestDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB501AB188ECFAD008B3291 /* Debug */,
+				3BB501AC188ECFAD008B3291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB501AD188ECFAD008B3291 /* Build configuration list for PBXNativeTarget "TurkeyTestDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB501AE188ECFAD008B3291 /* Debug */,
+				3BB501AF188ECFAD008B3291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB50197188ECFAC008B3291 /* Project object */;
+}

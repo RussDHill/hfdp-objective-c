@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ducks' target in the 'Ducks' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
